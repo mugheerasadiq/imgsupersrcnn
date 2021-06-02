@@ -1,2 +1,10 @@
-# imgsupersrcnn
-Image Super Resolution using SRCNN. Recovering of high-resolution image from a single low-resolution image
+# DEEP LEARNING PROJECT
+# IMAGE SUPER RESOLUTION USING SRCNN - Image Restoration
+
+We propose a deep learning method for single image super-resolution (SR). Our method directly learns an end-to-end mapping between the low/high-resolution images. The mapping is represented as a deep convolutional neural network (CNN) that takes the low-resolution image as the input and outputs the high-resolution one. We further show that traditional sparse-coding-based SR methods can also be viewed as a deep convolutional network. But unlike traditional methods that handle each component separately, our method jointly optimizes all layers. Our deep CNN has a lightweight structure, yet demonstrates state-of-the-art restoration quality, and achieves fast speed for practical on-line usage. 
+
+# PROBLEM 
+The problem here is the recovering of high-resolution image from a single low-resolution image. The motivation behind the implementation of this project is to help students who can’t afford smartphones with high resolution camera and the image capturing of class boards is an important resource for a student as they can preserve the work for future use. Due to low-resolution image, they can’t use the image in future as they can’t see the work properly so this model will help these students to map there low-resolution image to high resolution image. 
+
+# CONCLUSION & FUTURE WORK
+The accuracy of the model will improve more when it will be trained on much larger dataset and much greater values of epoch size. In addition to these measures the performance of this model can also improve by exploring more filters and different training strategies. The model can be extended to use in real life applications like installing this model in the surveillance cameras used in traffic signals to help the traffic police in monitoring the vehicle speeds and recognizing the vehicles which are over-speeding and due to this over-speeding, the images captured by the cameras are not good enough to recognize so these images can be mapped to high resolution images.  
